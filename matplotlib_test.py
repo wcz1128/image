@@ -176,6 +176,7 @@ for r,bar in zip(radii, bars):
     bar.set_alpha(0.5)
 
 
+plt.savefig("2d.png")
 
 
 #3D图
@@ -194,7 +195,8 @@ ax.plot_surface(X, Y, Z, rstride=1, cstride=1, cmap='hot')
 
 
 #显示
-plt.show()
+plt.savefig("3d.png")
+#plt.show()
 
 
 

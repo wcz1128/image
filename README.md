@@ -5,3 +5,5 @@
 
 1、先要会画图显示吧
 pip install matplotlib
+
+2、再来学习下opencv这个强大的工具吧
